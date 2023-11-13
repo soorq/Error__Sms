@@ -15,7 +15,7 @@ import { SMSRu } from 'node-sms-ru';
       }),
     }),
   ],
-  controllers: [AppController, SMSRu],
+  controllers: [AppController],
   providers: [AppService],
 })
 export class AppModule {}
